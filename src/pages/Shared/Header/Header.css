@@ -1,0 +1,12 @@
+.menu li a {
+    padding: 0 33px;
+}
+
+.menu li a:hover {
+    background: none;
+
+}
+
+.menu li a:focus {
+    background: none;
+}
