@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import './Header.css';
 
 const Header = () => {
@@ -9,13 +10,16 @@ const Header = () => {
         <Link to="/home">Home</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <HashLink to="/#about">About</HashLink>
       </li>
       <li>
-        <Link to="/work">Work</Link>
+        <Link to="/projects">Projects</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="/blogs">Blogs</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact Me</Link>
       </li>
     </>
   );
@@ -41,15 +45,15 @@ const Header = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-lg"
           >
             {menuItems}
           </ul>
         </div>
-        <a className="normal-case text-xl">Nur</a>
+        <a className="logo normal-case text-2xl" href="/home">Nur</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-lg">
           {menuItems}
         </ul>
       </div>

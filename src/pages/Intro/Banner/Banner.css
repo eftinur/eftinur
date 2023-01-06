@@ -1,0 +1,70 @@
+#banner {
+    height: 100vh;
+  }
+  
+  .banner h2 {
+    font-family: "Zen Dots";
+  }
+  
+  /* .bttn {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    width: 156px;
+    height: 67px;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
+  } */
+  
+  /* btn-effect-1 */
+  
+  /* .btn-effect-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ececec;
+    border-radius: 0.25rem;
+    z-index: -1;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .btn:hover {
+    color: #000;
+  }
+  
+  .btn-effect-1:hover::before {
+    width: 100%;
+  }
+   */
+
+   button {
+    padding: 14px 32px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: #FF4655;
+    color: hsl(0, 0%, 100%);
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: #FF4655;
+    color: hsl(0, 0%, 100%);
+    transform: translateY(10px);
+    transition: 100ms;
+   }
