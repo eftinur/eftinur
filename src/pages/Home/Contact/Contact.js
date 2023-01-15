@@ -1,13 +1,12 @@
 import React from "react";
-import JotformEmbed from "react-jotform-embed";
 
 const Contact = () => {
   return (
-    <div>
-      <div className="bg-base-400">
-        <JotformEmbed src="https://form.jotform.com/223433234768054"></JotformEmbed>
-      </div>
-    </div>
+    <div className="w-3/4 mx-auto min-h-screen">
+           <div className="flex justify-center items-center h-screen">
+            <p className="text-7xl">Coming Soon</p>
+           </div>
+        </div>
   );
 };
 

@@ -1,11 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif ;
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #DBDFE0;
-  color: #000000;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 code {

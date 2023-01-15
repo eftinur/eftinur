@@ -6,7 +6,10 @@
 }
 
 .menu li a {
-    padding: 0 33px;
+    padding: 0 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #363636;
 }
 
 .menu li a:hover {
@@ -16,8 +19,4 @@
 
 .menu li a:focus {
     background: none;
-}
-
-.logo {
-    font-family: 'Zen Dots';
 }

@@ -9,12 +9,12 @@ const Header = () => {
       <li>
         <Link to="/home">Home</Link>
       </li>
-      <li>
+      {/* <li>
         <HashLink to="/#about">About</HashLink>
       </li>
       <li>
         <Link to="/projects">Projects</Link>
-      </li>
+      </li> */}
       <li>
         <Link to="/blogs">Blogs</Link>
       </li>
@@ -45,15 +45,15 @@ const Header = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-lg"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow text-[#363636] rounded-box w-52 text-lg"
           >
             {menuItems}
           </ul>
         </div>
-        <a className="logo normal-case text-2xl" href="/home">Nur</a>
+        <a className="logo_title normal-case text-2xl" href="/home">Coming soon.</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-lg">
+        <ul className="menu menu-horizontal px-1 text-lg text-[#363636]">
           {menuItems}
         </ul>
       </div>

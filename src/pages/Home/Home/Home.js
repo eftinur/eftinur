@@ -1,15 +1,13 @@
 import React from 'react';
-import Banner from '../../Intro/Banner/Banner';
-import Intro from '../../Intro/Intro';
+import Banner from '../Banner/Banner';
 import Footer from '../../Shared/Footer/Footer';
-import WorkItems from '../../WorkItems/WorkItems';
+import About from '../Banner/About/About';
 
 const Home = () => {
     return (
         <div>
           <Banner />
-          <Intro />
-          <WorkItems />
+          <About />
           <Footer />
         </div>
     );

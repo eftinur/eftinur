@@ -1,0 +1,46 @@
+#banner {
+  height: 100vh;
+}
+
+.banner_wrapper h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* .bttn {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    width: 156px;
+    height: 67px;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
+  } */
+
+/* btn-effect-1 */
+
+/* .btn-effect-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ececec;
+    border-radius: 0.25rem;
+    z-index: -1;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .btn:hover {
+    color: #000;
+  }
+  
+  .btn-effect-1:hover::before {
+    width: 100%;
+  }
+   */
+
