@@ -2,8 +2,11 @@
   height: 100vh;
 }
 
-.banner_wrapper h2 {
-  font-family: "Oswald", sans-serif;
+.banner_wrapper h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 52px;
 }
 
 /* .bttn {
@@ -43,4 +46,3 @@
     width: 100%;
   }
    */
-

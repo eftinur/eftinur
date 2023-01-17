@@ -5,7 +5,11 @@ const Banner = () => {
   return (
     <section id="banner" className="flex justify-center">
       <div className="banner_wrapper w-3/4 text-left flex flex-col justify-center text-5xl md:text-5xl">
-
+        <h1>
+          Hello, I'm Pieter, <br /> 
+          developer with a passion for <br />
+          building smooth interfaces.
+        </h1>
         {/* <button class="text-lg mt-12">
           <a
             href="https://drive.google.com/file/d/185T9XOQdeFk4XEaUe_iMywocXg-7CIs2/view?usp=share_link"

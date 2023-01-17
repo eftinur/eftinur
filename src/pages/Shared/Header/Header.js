@@ -11,10 +11,10 @@ const Header = () => {
       </li>
       {/* <li>
         <HashLink to="/#about">About</HashLink>
-      </li>
+      </li> */}
       <li>
         <Link to="/projects">Projects</Link>
-      </li> */}
+      </li>
       <li>
         <Link to="/blogs">Blogs</Link>
       </li>
