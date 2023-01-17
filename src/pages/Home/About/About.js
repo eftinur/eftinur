@@ -4,10 +4,9 @@ import './About.css';
 const About = () => {
     return (
         <div className='about_brief w-3/4 mx-auto text-center'>
-            <h3 className='text-5xl text-blue-800'>About</h3>
-            <p>направлении проектирования Front-end Developer, более двух лет я занимаюсь версткой и несколько месяцев работаю React-разработчиком.</p>
-            <p>Развиваюсь в области разработки веб-приложений на языке JavaScript и экосистемы Node.js. Веду научную деятельность в направлении проектирования и разработки приложений на бессерверной архитектуре JAMstack.</p>
-            <p>Из своих главных качеств могу выделить: усидчивость, терпение, ответственный подход к работе. Спокойно принимаю критику в свой адрес и всегда готов найти компромисс в конфликте.</p>
+            <h3>About</h3>
+            <p>I am a Front-end Developer with a passion for modern technologies and I specialize in using HTML, CSS, JavaScript, ReactJS, and other MERN Stack technologies to create interactive and scalable web applications. I am also proficient providing end-to-end solutions for clients. I am currently seeking new opportunities to collaborate and contribute to innovative projects.</p>
+            <p>I have excellent communication and interpersonal skills and am able to work well both individually and in a team. I’m a lifelong learner currently learning MaterialUI, Next.js, Socket.IO, and TypeScript, and love playing football, reading books, and cycling.</p>
         </div>
     );
 };

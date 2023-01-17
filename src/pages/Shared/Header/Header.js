@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import nurLogo from '../../../assets/nur_logo.png'
 import './Header.css';
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
         <HashLink to="/#about">About</HashLink>
       </li> */}
       <li>
-        <Link to="/projects">Projects</Link>
+        <Link to="/work">work</Link>
       </li>
       <li>
         <Link to="/blogs">Blogs</Link>
@@ -50,7 +51,7 @@ const Header = () => {
             {menuItems}
           </ul>
         </div>
-        <a className="logo_title normal-case text-2xl" href="/home">Coming soon.</a>
+        <a className="logo_title normal-case text-2xl" href="/home"><img className="w-28 h-28" src={nurLogo} alt="" /></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg text-[#363636]">

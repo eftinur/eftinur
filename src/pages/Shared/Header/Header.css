@@ -1,14 +1,15 @@
-.navbar {
+/* .navbar {
     position: absolute;
     top: 3%;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
 .menu li a {
     padding: 0 14px;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #363636;
 }
 
