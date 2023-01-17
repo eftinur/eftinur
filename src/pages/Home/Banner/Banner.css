@@ -1,6 +1,6 @@
-#banner {
+/* #banner {
   height: 100vh;
-}
+} */
 
 .banner_wrapper h1 {
   font-family: 'Syne', sans-serif;
@@ -49,10 +49,10 @@
 
 
    button {
-    padding: 1em 2.5em;
+    padding: 1.2em 2.5em;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2.5px;
     font-weight: 400;
     color: #fff;

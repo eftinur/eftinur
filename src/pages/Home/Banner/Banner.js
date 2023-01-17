@@ -4,7 +4,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <section id="banner" className="flex justify-center">
-      <div className="banner_wrapper w-3/4 text-left flex flex-col justify-center text-5xl md:text-5xl">
+      <div className="banner_wrapper w-3/4 text-left flex flex-col justify-center text-5xl md:text-5xl py-28">
         <h1>
           Hello, I'm Efti, <br /> 
           developer with a passion for <br />
@@ -33,7 +33,7 @@ const Banner = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn more
+            View resume
           </a>
         </button>
       </div>
