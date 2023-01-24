@@ -5,7 +5,7 @@ import Work from '../Work/Work';
 
 const Home = () => {
     return (
-        <div>
+        <div className='min-h-screen'>
           <Banner />
           <About />
           <Work />

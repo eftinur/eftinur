@@ -6,7 +6,7 @@ const Banner = () => {
     <section id="banner" className="flex justify-center">
       <div className="banner_wrapper w-3/4 text-left flex flex-col justify-center text-5xl md:text-5xl py-28">
         <h1>
-          Hello, I'm Efti, <br /> 
+          Hello, I'm Efti, a <br /> 
           developer with a passion for <br />
           building smooth interfaces.
         </h1>

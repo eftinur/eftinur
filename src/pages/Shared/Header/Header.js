@@ -20,12 +20,12 @@ const Header = () => {
         <Link to="/blogs">Blogs</Link>
       </li>
       <li>
-        <Link to="/contact">Contact Me</Link>
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );
   return (
-    <div className="navbar w-3/4 mx-auto justify-between">
+    <div className="navbar w-3/4 mx-auto justify-between -mt-12">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@ const Header = () => {
             {menuItems}
           </ul>
         </div>
-        <a className="logo_title normal-case text-2xl" href="/home"><img className="w-28 h-28" src={nurLogo} alt="" /></a>
+        <a className="logo_title" href="/home"><img className="w-40 h-40 -ml-4" src={nurLogo} alt="" /></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg text-[#363636]">
