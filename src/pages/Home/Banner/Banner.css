@@ -1,12 +1,10 @@
-/* #banner {
+#banner {
   height: 100vh;
-} */
+}
 
 .banner_wrapper h1 {
   font-family: 'Syne', sans-serif;
-  font-size: 42px;
   font-weight: 800;
-  line-height: 52px;
 }
 
 /* .bttn {
@@ -56,7 +54,7 @@
     letter-spacing: 2.5px;
     font-weight: 400;
     color: #fff;
-    background-color: hsl(261deg 80% 48%);
+    background-color: #6225E6;
     border: none;
     border-radius: 45px;
     transition: all 0.3s ease 0s;
@@ -65,7 +63,7 @@
   }
   
   button:hover {
-    background-color: hsl(261deg 80% 48%);
+    background-color: #6225E6;
     color: #fff;
     transform: translateY(-7px);
   }

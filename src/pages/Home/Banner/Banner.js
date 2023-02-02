@@ -1,32 +1,21 @@
 import React from "react";
 import "./Banner.css";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section id="banner" className="flex justify-center">
-      <div className="banner_wrapper w-3/4 text-left flex flex-col justify-center text-5xl md:text-5xl py-28">
+    <section id="banner" className="flex w-3/4 mx-auto">
+      <motion.div
+        initial={{ x: "-100vw " }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1, type: "spring", bounce: 0.3, delay: 1  }}
+        className="banner_wrapper text-left flex flex-col justify-center text-3xl md:text-5xl leading-snug"
+      >
         <h1>
-          Hello, I'm Efti, a <br /> 
+          Hello, I'm Efti, a <br />
           developer with a passion for <br />
           building smooth interfaces.
         </h1>
-        {/* <button class="text-lg mt-12">
-          <a
-            href="https://drive.google.com/file/d/185T9XOQdeFk4XEaUe_iMywocXg-7CIs2/view?usp=share_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Resume
-          </a>
-        </button> */}
-
-        {/* <button class="button w-fit mt-8">
-          <span class="button_lg">
-            <span class="button_sl"></span>
-            <span class="button_text">Download Now</span>
-          </span>
-        </button> */}
-
         <button class="w-fit mt-10 text-sm">
           <a
             href="https://drive.google.com/file/d/185T9XOQdeFk4XEaUe_iMywocXg-7CIs2/view?usp=share_link"
@@ -36,7 +25,7 @@ const Banner = () => {
             View resume
           </a>
         </button>
-      </div>
+      </motion.div>
     </section>
   );
 };

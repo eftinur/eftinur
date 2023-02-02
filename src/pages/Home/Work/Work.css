@@ -1,23 +1,28 @@
+.work_wrapper {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .work_wrapper h3 {
   font-family: "Syne", sans-serif;
   font-size: 36px;
   font-weight: 800;
   line-height: 52px;
   text-align: left;
+  margin-bottom: 32px;
+}
+
+.list__item h2 {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
 }
 
 .list__item h4 {
   font-family: "Syne", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
-  line-height: 52px;
   text-align: left;
 }
 
-.list__item:nth-child(even) {
-  margin-top: 300px;
-}
-
-.list__item:nth-child(3n) {
-  margin-top: -200px;
+.list__item a {
+  color: #6225E6;
 }
