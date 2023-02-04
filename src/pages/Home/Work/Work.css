@@ -1,5 +1,5 @@
 .work_wrapper {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .work_wrapper h3 {
@@ -21,8 +21,11 @@
   font-size: 22px;
   font-weight: 800;
   text-align: left;
+  padding-top: 32px;
 }
 
 .list__item a {
   color: #6225E6;
+  font-weight: 400;
+  text-transform: capitalize;
 }

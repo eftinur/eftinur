@@ -5,69 +5,60 @@
 .banner_wrapper h1 {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
+  line-height: 50px;
 }
-
-/* .bttn {
-    background-color: #fff;
-    color: #000;
-    display: inline-block;
-    width: 156px;
-    height: 67px;
-    border: none;
-    outline: none;
-    border-radius: 0.25rem;
-    position: relative;
-    z-index: 1;
-    padding: 1rem;
-  } */
-
-/* btn-effect-1 */
-
-/* .btn-effect-1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #ececec;
-    border-radius: 0.25rem;
-    z-index: -1;
-    transition: all ease-in-out 0.3s;
+.custom__btn {
+  height: 2.8em;
+  width: 9em;
+  background: #6225E6;
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+  /* border: 2px solid #6225E6; */
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+ }
+ 
+ .custom__btn:hover {
+  background: #6225E6;
+  color: #ffffff;
+  animation: squeeze3124 0.9s both;
+ }
+ 
+ @keyframes squeeze3124 {
+  0% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
   }
-  
-  .btn:hover {
-    color: #000;
+ 
+  30% {
+   -webkit-transform: scale3d(1.25, 0.75, 1);
+   transform: scale3d(1.25, 0.75, 1);
   }
-  
-  .btn-effect-1:hover::before {
-    width: 100%;
+ 
+  40% {
+   -webkit-transform: scale3d(0.75, 1.25, 1);
+   transform: scale3d(0.75, 1.25, 1);
   }
-   */
-
-
-   button {
-    padding: 1.2em 2.5em;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
-    text-transform: capitalize;
-    letter-spacing: 2.5px;
-    font-weight: 400;
-    color: #fff;
-    background-color: #6225E6;
-    border: none;
-    border-radius: 45px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+ 
+  50% {
+   -webkit-transform: scale3d(1.15, 0.85, 1);
+   transform: scale3d(1.15, 0.85, 1);
   }
-  
-  button:hover {
-    background-color: #6225E6;
-    color: #fff;
-    transform: translateY(-7px);
+ 
+  65% {
+   -webkit-transform: scale3d(0.95, 1.05, 1);
+   transform: scale3d(0.95, 1.05, 1);
   }
-  
-  button:active {
-    transform: translateY(-1px);
+ 
+  75% {
+   -webkit-transform: scale3d(1.05, 0.95, 1);
+   transform: scale3d(1.05, 0.95, 1);
   }
+ 
+  100% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ }
+ 

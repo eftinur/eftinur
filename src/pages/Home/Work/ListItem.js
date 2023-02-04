@@ -1,32 +1,35 @@
 import React from "react";
 import "./Work.css";
-import { a } from "react-router-dom";
+import { motion } from "framer-motion";
+import { useContext } from "react";
+import { MOUSE_CONTEXT } from "../../../context/MouseContext";
 
-const listItem = ({ project }) => {
+const ListItem = ({ project }) => {
+  const { elementEnter, elementLeave } = useContext(MOUSE_CONTEXT);
   return (
-    <div className="list__item">
+    <motion.div
+      onMouseEnter={elementEnter}
+      onMouseLeave={elementLeave}
+      initial={{ opacity: 0, y: "300px" }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="list__item"
+    >
       <img src={project.image} alt="" />
       <h4 className="pt-4">{project.name}</h4>
 
-      <div className="flex items-center">
-        <p className="pr-3">Visit: </p>
-        <a href={project.page} target="blank">
-          <img
-            className="w-6 h-6 mr-3"
-            src="https://img.icons8.com/color/48/null/web.png"
-            alt=""
-          />
+      <motion.button
+        whileHover={{ scale: 1.3, originX: 0, color: "#6225E6" }}
+        transition={{ type: "spring", stiffness: 300 }}
+        className="flex items-center w-fit py-3"
+      >
+        <a className="underline" href={project.page} target="blank">
+          Go to website
         </a>
-        <a href={project.frontend} target="blank">
-          <img
-            className="w-6 h-6 mr-3"
-            src="https://img.icons8.com/fluency/96/null/github.png"
-            alt=""
-          />
-        </a>
-      </div>
-    </div>
+      </motion.button>
+    </motion.div>
   );
 };
 
-export default listItem;
+export default ListItem;

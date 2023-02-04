@@ -1,58 +1,58 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links {
-    display: flex;
+  display: flex;
 }
 
 .nav-links a {
-    font-family: 'Anton', sans-serif;
-    font-size: 14px;
-    padding: 0 1.25rem;
-    cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  padding: 0 1.25rem;
 }
 
 .toggle-btn {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 900px) {
-    .nav-links {
-        display: none;
-    }
+  .nav-links {
+    display: none;
+  }
 
-    .nav-links-mobile {
-        position: absolute;
-        top: 80px;
-        left: 0;
-        background-color: #fff;
-        width: 100vw;
-        height: 100vh;
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.5s ease-out;
-        z-index: 1;
-    }
+  .nav-links-mobile {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+    z-index: 1;
+  }
 
-    .nav-links-mobile a {
-        font-family: 'Anton', sans-serif;
-        width: 100%;
-        font-size: 2.5rem;
-        display: inline-block;
-        padding: 24px 0;
-        transition: all 0.5s ease-out;
-    }
+  .nav-links-mobile a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    display: block;
+    padding: 12px 0;
+    width: 30%;
+    transition: all 0.5s ease-out;
+  }
 
-    .toggle-btn {
-        display: block;
-        /* position: absolute;
+  .toggle-btn {
+    display: block;
+    /* position: absolute;
         top: 35px;
         right: 100px; */
-    }
+  }
 }
